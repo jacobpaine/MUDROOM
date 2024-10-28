@@ -1,0 +1,25 @@
+.chat-box,
+.action-box {
+  width: 100%;
+  height: 150px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  background-color: #e8f5e9;
+  /* Light green background for chat box */
+}
+
+.action-box {
+  background-color: #f1f8ff;
+  /* Light blue background for action box */
+}
+
+.chat-box p,
+.action-box p {
+  margin: 5px 0;
+}
