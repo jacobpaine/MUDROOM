@@ -79,6 +79,7 @@ passport.use(
             username,
             google_id,
           } = newUserAttributes;
+
           // Insert all fields into the users table
           const newUserRes = await pool.query(
             `INSERT INTO users (
